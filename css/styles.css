@@ -129,7 +129,7 @@ img {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 1px;
+    bottom: -1px;
     width: 48px;
     height: 4px;
     border-radius: 2px;
@@ -412,7 +412,7 @@ margin-top: 8px;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.social-link:focus,
 .social-link:hover {
     background-color: #404bbf;
 }
@@ -455,6 +455,10 @@ margin-top: 8px;
     background: var(--WHITE, #FFF);
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img {}
