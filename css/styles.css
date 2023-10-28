@@ -122,7 +122,7 @@ img {
 
 }
 
-.header-menu-link::after {
+.header-after::after {
     color: #404BBF;
     content: "";
     position: absolute;
@@ -181,14 +181,15 @@ background-image: linear-gradient(
     background-position: center;
     background-size: cover;
     max-width: 1440px
+    
 }
 
 .container {
-
+   
 }
 
 .hero-container {
-   
+      
 }
 
 .hero-lile {
