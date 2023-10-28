@@ -5,12 +5,10 @@
     bottom: -1px;
 }
 
-
 body {
         font-family: 'Roboto', sans-serif;
         color: #434455;
         background-color: #FFFFFF;
-
 }
 
 /** ========== HEADER =========== */
@@ -31,16 +29,14 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-
 }
 
 .header-navigation {
 display: flex;
 align-items: center;
 flex-grow: 1;
-
-
 }
+
 .list {
     list-style: none;
 }
@@ -68,8 +64,6 @@ img {
     height: auto;
 }
 
-
-
 .header-logo {
     color: #4D5AE5;
         font-family: "Raleway", sans-serif;
@@ -78,12 +72,10 @@ img {
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        margin-right: 76px;
-        
+        margin-right: 76px;    
 }
 .first-logo{
     color: #2e2f42;
-   
 }
 
 .header-menu {
@@ -92,7 +84,6 @@ img {
 }
 
 .header-menu-item {
-   
 }
 
 .header-menu-link {
@@ -106,8 +97,7 @@ img {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
-        
+        position: relative;  
 }
 
 .current {
@@ -119,7 +109,6 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404BBF;
-
 }
 
 .header-after::after {
@@ -140,13 +129,11 @@ img {
 
 .contacts{
     font-style: normal;
-   
 }
 
 .contacts-item {
     display: flex;
     gap: 40px;
-
 }
 
 .contacts-link {
@@ -162,9 +149,7 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404BBF;
-    
 }
-
 
 /* ===================== */
 /** ========== HERO =========== */
@@ -180,17 +165,13 @@ background-image: linear-gradient(
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px
-    
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.container {
-   
-}
+.container  {}
 
-.hero-container {
-      
-}
+.hero-container {}
 
 .hero-lile {
         color:  #FFF;
@@ -266,11 +247,7 @@ padding-top: 120px;
 }
 
 .icons-container {
-    display: flex;
-     justify-content: center;
-    align-items: center;
         height: 112px;
-        margin: 0 auto;
         border-radius: 4px;
         border: 1px solid #8e8f99;
         background-color: #f4f4fd;
@@ -334,25 +311,6 @@ border-radius: 0px 0px 4px 4px;
 .taste-img {
    
     
-}
-
-.cover-text {
-    color: #f4f4fd;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        background: #4d5ae5;
-        position: absolute;
-        margin: 0;
-        top: 0;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 40px 32px;
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        transform: translateY(100%);
 }
 
 .taste-item-inner {
@@ -466,23 +424,15 @@ margin-top: 8px;
 
 .portfolio-item:hover .cover-text {
     transform: translateY(0);
-
 }
 
 .cover-text {
     color: #f4f4fd;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         background: #4d5ae5;
         position: absolute;
-        margin: 0;
         top: 0;
-        height: 100%;
-        display: flex;
-        justify-content: center;
         padding: 40px 32px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transform: translateY(100%);
@@ -493,7 +443,6 @@ margin-top: 8px;
     border: 1px solid #E7E9FC;
     border-top: none;
     padding: 32px 16px;
-
 }
 
 .portfolio-subtitle {
@@ -545,9 +494,7 @@ margin-top: 8px;
     }
     
     .first-logo_ {
-        color: #F4F4FD;
-        
-       
+        color: #F4F4FD; 
 }
 
 .footer-text {
